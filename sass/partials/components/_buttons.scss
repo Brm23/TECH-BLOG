@@ -2,12 +2,12 @@
   @include border-radius(10px);
   @include font-size(14);
   background-image: url(../images/arrow.png);
-  background-color: $azul;
+  background-color: $celeste;
   .svg & {
     background-image: url(../images/arrow.svg);
   }
   &:hover {
-    background-color: darken($azul,10%);
+    background-color: darken($celeste,10%);
   }
 }
 
