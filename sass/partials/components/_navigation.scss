@@ -1,0 +1,48 @@
+//general style
+
+nav {
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+  }
+}
+
+// Navegation primary
+
+.main-nav {
+  li {
+    padding-right: 20px;
+    vertical-align: top;
+  }
+  a {
+    color: $text1;
+    display: block;
+    padding: 10px;
+    font-family: $sans;
+    text-decoration: none;
+    @include font-size(12);
+  } 
+}
+
+.main-nav li a {
+  &:hover {
+    background-color: #4CBCC3;
+  } 
+}
+
+// Navegation footer
+
+.footer-nav {
+  line-height: 90px;
+  text-align: center;
+  li {
+    color: $footer-text;
+    font-family: $sans;
+    padding: 5px;
+    text-decoration: none;
+  }
+}

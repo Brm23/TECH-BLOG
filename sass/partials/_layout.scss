@@ -1,15 +1,3 @@
-.sidebar-left {
-  width: $grid-sidebar / $grid-context * 100%;
-}
-.main-content {
-  width: $grid-main-content / $grid-context * 100%;
-}
-
-/////
-
-//header
-
-.logo {
-	margin-left: 130px;
-	margin-top: 25px;
+h1, ul, .social {
+	@extend %content;
 }

@@ -1,8 +1,25 @@
-/* #placeholders 
-============================================ */
+%button {
+	background-color: $background2;
+	border: none;
+	color: $text1;
+	display: block;
+	float: left;
+	margin-bottom: 40px;
+	margin-right: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+	@include font-size(8);
+}
 
-%white-background-gray-border {
-  background: #fff;
-  padding: 10px;
-  border: #e1e1e1 solid 5px;
+%content {
+	max-width: $content-width;
+	margin: 0 auto;
+}
+
+%follow-us {
+	color: $text1;
+	float: right;
+    padding: 10px;
+    font-family: $sans;
+    @include font-size(12);
 }

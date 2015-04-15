@@ -1,24 +1,24 @@
-%button-globals {
-  @include border-radius(10px);
-  @include font-size(14);
-  background-image: url(../images/arrow.png);
-  background-color: $celeste;
-  .svg & {
-    background-image: url(../images/arrow.svg);
-  }
-  &:hover {
-    background-color: darken($celeste,10%);
-  }
+header {
+  background-color: $background2;
+  height: 280px;
 }
 
-.button {
-  @extend %button-globals;
-}
-.button-large {
-  @extend %button-globals;
-  @include font-size(16);
+.main-title {
+  color: $text1;
+  padding-top: 30px;
+  text-transform: uppercase;
+  @include font-size(28);
 }
 
-.submit-action {
-  @extend %button-globals;
+.social {
+  @extend %follow-us;
+}
+
+.social-items img {
+  margin-right: 14px;
+}
+
+.social-items {
+  float: right;
+  margin-right: 140px;
 }
